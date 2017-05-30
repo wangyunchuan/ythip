@@ -1,0 +1,21 @@
+rootProject.name = 'ythip'
+include ':react-native-jpush'
+project(':react-native-jpush').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-jpush/android')
+include ':react-native-network-info'
+project(':react-native-network-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-network-info/android')
+include ':react-native-material-kit'
+project(':react-native-material-kit').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-material-kit/android')
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+include ':react-native-dropdown-android'
+project(':react-native-dropdown-android').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-dropdown-android/android')
+include ':react-native-device-info'
+project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')
+include ':react-native-vibration'
+project(':react-native-vibration').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vibration/android')
+
+include ':app'
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
